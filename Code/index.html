@@ -14,24 +14,50 @@
 
 </head>
 <body>
-    <!-- Header Section -->
+    
     <header>
-        <div class="container">
-            <img src="images/logo.png" alt="Murana Kompany Logo" class="logo">
+        <div class="header-container">
+            
+            <a href="index.html">
+                <img src="images/logo.png" alt="Murana Kompany Logo" class="logo">
+            </a>
+            
             <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                
+                <div class="hamburger" id="hamburger">
+                    &#9776; <!-- Hamburger icon -->
+                </div>
+                
+                <ul id="nav-links">
+                    <li><a  class="nav-produktet" href="#home">Produktet</a></li>
+                    <li><a href="#about">Sherbimet</a></li>
+                    <li><a href="#contact">Punimet</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    
+                    <div class="language">
+                        <a>
+                            SQ
+                        </a>
+
+                        <p>|</p>
+
+                        <a>
+                            MK
+                        </a>
+                    </div>
                 </ul>
+
+                
+            
             </nav>
+
         </div>
     </header>
 
     <!-- Main Content Section -->
     <main id="home">
         <section class="hero">
-            <div class="container">
+            <div class="hero-content">
                 <h1>Welcome to Murana Kompany</h1>
                 <p>Your trusted partner in [industry/service].</p>
                 <a href="#about" class="btn">Learn More</a>
@@ -61,7 +87,4 @@
         </div>
     </footer>
     
-    <!-- Link to JavaScript -->
     <script src="js/scripts.js"></script>
-</body>
-</html>
