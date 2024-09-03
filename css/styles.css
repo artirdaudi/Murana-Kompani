@@ -540,6 +540,17 @@ nav ul li a:hover {
     }
 }
 
+@keyframes  appear-bottom{
+    from{
+        opacity: 0;
+        transform: translateY(500px);  
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
 @keyframes  appear-right{
     from{
         opacity: 0;
@@ -632,6 +643,7 @@ nav ul li a:hover {
 .produkt-container{
     
     width: 43vw;
+    margin-bottom: 3vw;
 
     border-radius: 10px;
 
@@ -642,32 +654,41 @@ nav ul li a:hover {
             12px 12px 15px rgba(0, 0, 0, 0.5);
 
    
-    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)); */
-    /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); */
-    /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); */
-    /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
-    /* background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); */
-    
-    /* background-color: #DCD9D4;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
-    background-blend-mode: soft-light,screen; */
-
-    /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-    background-blend-mode: multiply,multiply; */
-
-    /* background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); */
-
-    /* background-image: linear-gradient(to right, #868f96 0%, #596164 100%); */
 
     background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
 
     display: flex;
     gap:7px;
+
+    cursor: pointer;
+
+
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+    transition: hover 0.5s ease-in;
+
     
+}
+
+.produkt-container:hover{
+    scale: 1.1;
+    box-shadow: 7px 7px 12px #6e0303;
+}
+
+.produkt-container p{
+    color: #333;
+}
+
+a{
+    text-decoration: none;
 }
 
 .produkt-image-container{
     width: 50%;
+    
+    
 }
 
 .produkt-image-container img{
@@ -677,6 +698,8 @@ nav ul li a:hover {
     border-radius: 10px 0px 0px 10px;
 
     object-fit:fill;
+
+    
     
 }
 
@@ -687,6 +710,10 @@ nav ul li a:hover {
     
     
     padding-bottom: 30px;
+
+    animation: appear-bottom linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 
 .produkt-description-container h2{
