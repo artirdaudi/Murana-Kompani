@@ -237,7 +237,14 @@ nav ul li a:hover {
         font-size: 10px;
     }
     
-    
+    .produkt-container{
+        width: 90vw !important;
+        height: 50vh;
+    }
+
+    .produktet{
+        padding-top: 10vh !important;
+    }
    
 }
 
