@@ -275,7 +275,7 @@ nav ul li a:hover {
     
 
     height:50vh;
-    background-image: url('../images/hero-img3.png');
+    background-image: url('../images/hero-img3.jpg');
     background-size: cover; 
     background-position: center;
     
@@ -454,7 +454,7 @@ nav ul li a:hover {
 
 
 .highlights{
-    background-image: url('../images/highlights-bg-4.png');
+    background-image: url('../images/highlights-bg-4.jpg');
     background-size: 100% 100%;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3);
     
