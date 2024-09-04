@@ -724,7 +724,7 @@ a{
 }
 
 .produkt-description-container h2{
-    background-image: url('../images/highlights-bg-4.png');
+    background-image: url('./images/highlights-bg-4.png');
     background-size: 100% 100%;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3);
     clip-path: polygon(0% 19.25%, 100% 0%, 100% 76.75%, 0% 100%);
