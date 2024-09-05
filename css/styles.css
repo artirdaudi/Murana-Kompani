@@ -241,7 +241,26 @@ nav ul li a:hover {
     
     .produkt-container{
         width: 90vw !important;
-        height: 50vh;
+        height: auto !important;
+        flex-direction: column !important;
+
+        gap:0 !important;
+    }
+    .produkt-image-container{
+        width: 100% !important;
+        height: 30vh !important;
+    }
+    .produkt-description-container{
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+        animation: appear-right linear !important;
+        animation-timeline: view() !important;
+        animation-range: entry 0% cover 20% !important;
+    }
+
+    .produkt-description-container p{
+        font-size: small !important;
     }
 
     .produktet{
