@@ -303,7 +303,15 @@ nav ul li a:hover {
     
 
     height:50vh;
-    background-image: url('../images/hero-img3.jpg');
+    /* background-image: url('../images/hero-img3.jpg'); */
+    background-image: image-set(
+        url('../images/hero-img3_z2aqye_c_scale,w_200.png') 1x,
+        url('../images/hero-img3_z2aqye_c_scale,w_435.png') 1.5x,
+        url('../images/hero-img3_z2aqye_c_scale,w_596.png') 2x,
+        url('../images/hero-img3_z2aqye_c_scale,w_740.png') 2.5x,
+        url('../images/hero-img3_z2aqye_c_scale,w_877.png') 3x,
+        url('../images/hero-img3_z2aqye_c_scale,w_960.png') 4x
+    );
     background-size: cover; 
     background-position: center;
     
@@ -482,7 +490,17 @@ nav ul li a:hover {
 
 
 .highlights{
-    background-image: url('../images/highlights-bg-4.jpg');
+    /* background-image: url('../images/highlights-bg-4.jpg'); */
+
+    background-image: image-set(
+        url('../images/highlights-bg-4_q2spix_c_scale,w_200.png') 1x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_735.png') 1.5x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_991.png') 2x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1104.png') 2.5x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1344.png') 3x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1400.png') 4x
+    );
+
     background-size: 100% 100%;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3);
     
@@ -771,7 +789,15 @@ a{
 }
 
 .produkt-description-container h2{
-    background-image: url('../images/highlights-bg-4.jpg');
+    /* background-image: url('../images/highlights-bg-4.jpg'); */
+    background-image: image-set(
+        url('../images/highlights-bg-4_q2spix_c_scale,w_200.png') 1x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_735.png') 1.5x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_991.png') 2x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1104.png') 2.5x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1344.png') 3x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1400.png') 4x
+    );
     background-size: 100% 100%;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3);
     clip-path: polygon(0% 19.25%, 100% 0%, 100% 76.75%, 0% 100%);
