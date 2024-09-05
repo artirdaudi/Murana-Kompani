@@ -650,7 +650,7 @@ nav ul li a:hover {
 .produkt-container{
     
     width: 43vw;
-    height: 50vh;
+    height: auto;
     margin-bottom: 3vw;
 
     border-radius: 10px;
