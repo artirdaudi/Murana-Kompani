@@ -261,6 +261,8 @@ nav ul li a:hover {
 
     .produkt-description-container p{
         font-size: small !important;
+        padding-left: 8px !important;
+        padding-right: 5px !important;
     }
 
     .produktet{
