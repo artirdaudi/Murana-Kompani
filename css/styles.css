@@ -16,7 +16,10 @@ body {
 /* Header Styles */
 .header-container {
     background-color: white;
-    background: url('../images/background-image.jpg');
+    background-image: image-set(
+        url('../images/background-image_m1lgpo_c_scale,w_200.jpg') 1x,
+        url('../images/background-image_m1lgpo_c_scale,w_485.jpg') 2x
+    );
     padding: 10px 0;
     color: white;
 
@@ -812,6 +815,43 @@ a{
     padding: 20px;
     text-align: center;
     color: white;
+}
+
+.vlerat{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 10vw;
+
+    background-image: image-set(
+        url('../images/background-image3_ph8gxm_c_scale,w_200.jpg') 1x,
+        url('../images/background-image3_ph8gxm_c_scale,w_664.jpg') 1.5x,
+        url('../images/background-image3_ph8gxm_c_scale,w_800.jpg') 2x
+    );
+
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3);
+    
+}
+
+.vlerat p {
+    font-size: 30px;
+    font-weight: bolder;
+    color:#990202;
+
+    
+    padding: 10px 25px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+    animation: appear-bottom linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.hapja-puseve-container{
+    width: 100%;
+
 }
 
 /* Footer Styles */
