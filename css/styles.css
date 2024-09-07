@@ -268,9 +268,64 @@ nav ul li a:hover {
         padding-right: 5px !important;
     }
 
+    .produkt-description-container > a{
+        text-align: left !important;
+    }
+
+    .produkt-description-container-clickable{
+        padding: 25px;
+    }
+
     .produktet{
         padding-top: 10vh !important;
     }
+
+    .vlerat{
+        gap:2px !important;
+        flex-direction: column;
+
+        height: auto !important;
+    }
+
+    .vlerat p{
+        font-size: 18px !important;
+        
+    }
+
+    .hapja-puseve-container{
+        width: 100vw !important;
+        
+        display: flex !important; 
+        flex-direction: column !important; 
+        gap: 15px !important;
+        align-items: center;
+    }
+
+    .hapja-puseve-img{
+        width: 100% !important;
+        height: 30vh !important;
+
+        
+    }
+
+    .hapja-puseve-container img{
+        width: 100% !important;
+        height: 30vh !important;
+        display: block; 
+        position: relative; 
+        z-index: 1; 
+    }
+
+    .hapja-puseve-description{
+        
+        width: 100% !important;
+        padding: 15px; 
+        box-sizing: border-box; 
+        position: relative; /* Ensure proper stacking order */
+    z-index: 2; /* Bring description in front of the image */
+    }
+
+    
    
 }
 
@@ -743,7 +798,6 @@ nav ul li a:hover {
     display: flex;
     gap:7px;
 
-    cursor: pointer;
 
 
     animation: appear linear;
@@ -817,6 +871,17 @@ a{
     color: white;
 }
 
+.produkt-description-container > a{
+    font-size: bolder;
+    text-decoration: underline;
+    color: #990202;
+
+}
+
+.produkt-description-container p{
+    text-align: justify;
+}
+
 .vlerat{
     width: 100%;
     height: 15vh;
@@ -832,13 +897,15 @@ a{
     );
 
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3);
-    
+    filter: brightness(0.8);
+    margin: 0;
+    padding: 0;
 }
 
 .vlerat p {
     font-size: 30px;
     font-weight: bolder;
-    color:#990202;
+    color:#333;
 
     
     padding: 10px 25px;
@@ -847,11 +914,83 @@ a{
     animation: appear-bottom linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
+
+    filter: brightness(2);
 }
 
 .hapja-puseve-container{
-    width: 100%;
+    margin: 0;
+    padding: 0;
 
+    width: 100%;
+    height: auto;
+    background-image: image-set(
+        url('../images/background-image3_ph8gxm_c_scale,w_200.jpg') 1x,
+        url('../images/background-image3_ph8gxm_c_scale,w_664.jpg') 1.5x,
+        url('../images/background-image3_ph8gxm_c_scale,w_800.jpg') 2x
+    );
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+
+    
+}
+
+.hapja-puseve-img{
+    width: 50%;
+
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.hapja-puseve-img img{
+    width: 50vw;
+    height: 90vh;
+    
+}
+
+.hapja-puseve-container h2{
+    background-image: image-set(
+        url('../images/highlights-bg-4_q2spix_c_scale,w_200.png') 1x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_735.png') 1.5x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_991.png') 2x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1104.png') 2.5x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1344.png') 3x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1400.png') 4x
+    );
+    background-size: 100% 100%;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3);
+    clip-path: polygon(0% 19.25%, 100% 0%, 100% 76.75%, 0% 100%);
+    padding: 20px;
+    text-align: center;
+    color: white;
+
+    animation: appear-bottom linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.hapja-puseve-container p{
+    padding: 15px;
+    text-align: justify;
+
+    animation: appear-bottom linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.hapja-puseve-container a{
+    font-size: bolder;
+    text-decoration: underline;
+    color: #990202;
+}
+
+.produkt-description-container{
+    
+    padding: 15px;
+    
 }
 
 /* Footer Styles */
