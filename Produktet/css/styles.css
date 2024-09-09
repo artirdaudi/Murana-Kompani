@@ -94,6 +94,8 @@ nav ul li a:hover {
         width: 100%;
         
         background:url('../../images/background-image.jpg');
+        
+        
         position: absolute;
         top: 67px; 
         right: 0;
@@ -166,9 +168,7 @@ nav ul li a:hover {
         padding: 25px;
     }
 
-    .produktet{
-        padding-top: 10vh !important;
-    }
+
 
    
 }
@@ -281,7 +281,7 @@ nav ul li a:hover {
     background-blend-mode: normal, lighten, soft-light;
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); */
     /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
-    padding-top: 30vh;
+    
     /* top:155px;  */
 
 
