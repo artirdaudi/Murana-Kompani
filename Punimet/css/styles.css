@@ -424,6 +424,8 @@ a{
 
 .slide img{
     height: auto;
+    
+    object-fit: cover;
 
     max-height: 90vh;
     padding: 0;
