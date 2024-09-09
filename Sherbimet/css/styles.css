@@ -93,7 +93,11 @@ nav ul li a:hover {
         flex-direction: column;
         width: 100%;
         
-        background:url('../images/background-image.jpg');
+        background-image: image-set(
+        url('../images/background-image_m1lgpo_c_scale,w_200.jpg') 1x,
+        url('../images/background-image_m1lgpo_c_scale,w_485.jpg') 2x
+        );
+
         position: absolute;
         top: 67px; 
         right: 0;
@@ -112,7 +116,7 @@ nav ul li a:hover {
         margin-left: 0;
     }
     nav ul li a{
-        background-color: white;
+        
         box-shadow: none;
         border-radius: 0;
         
