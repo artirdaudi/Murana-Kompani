@@ -17,8 +17,8 @@ body {
 .header-container {
     background-color: white;
     background-image: image-set(
-        url('../images/background-image_m1lgpo_c_scale,w_200.jpg') 1x,
-        url('../images/background-image_m1lgpo_c_scale,w_485.jpg') 2x
+        url('../../images/background-image_m1lgpo_c_scale,w_200.jpg') 1x,
+        url('../../images/background-image_m1lgpo_c_scale,w_485.jpg') 2x
     );
     padding: 10px 0;
     color: white;
@@ -93,7 +93,7 @@ nav ul li a:hover {
         flex-direction: column;
         width: 100%;
         
-        background:url('../images/background-image.jpg');
+        background:url('../../images/background-image.jpg');
         position: absolute;
         top: 67px; 
         right: 0;
@@ -286,8 +286,8 @@ nav ul li a:hover {
 
 
     background-image: image-set(
-        url('../images/background-image_m1lgpo_c_scale,w_200.jpg') 1x,
-        url('../images/background-image_m1lgpo_c_scale,w_485.jpg') 2x
+        url('../../images/background-image_m1lgpo_c_scale,w_200.jpg') 1x,
+        url('../../images/background-image_m1lgpo_c_scale,w_485.jpg') 2x
     );
     display: flex;
     align-items: center;
@@ -353,8 +353,8 @@ nav ul li a:hover {
 
     /* background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%); */
     background-image: image-set(
-        url('../images/background-image_m1lgpo_c_scale,w_200.jpg') 1x,
-        url('../images/background-image_m1lgpo_c_scale,w_485.jpg') 2x
+        url('../../images/background-image_m1lgpo_c_scale,w_200.jpg') 1x,
+        url('../../images/background-image_m1lgpo_c_scale,w_485.jpg') 2x
     );
     display: flex;
     gap:7px;
@@ -417,12 +417,12 @@ a{
 .produkt-description-container h2{
     /* background-image: url('../images/highlights-bg-4.jpg'); */
     background-image: image-set(
-        url('../images/highlights-bg-4_q2spix_c_scale,w_200.png') 1x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_735.png') 1.5x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_991.png') 2x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_1104.png') 2.5x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_1344.png') 3x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_1400.png') 4x
+        url('../../images/highlights-bg-4_q2spix_c_scale,w_200.png') 1x,
+        url('../../images/highlights-bg-4_q2spix_c_scale,w_735.png') 1.5x,
+        url('../../images/highlights-bg-4_q2spix_c_scale,w_991.png') 2x,
+        url('../../images/highlights-bg-4_q2spix_c_scale,w_1104.png') 2.5x,
+        url('../../images/highlights-bg-4_q2spix_c_scale,w_1344.png') 3x,
+        url('../../images/highlights-bg-4_q2spix_c_scale,w_1400.png') 4x
     );
     background-size: 100% 100%;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3);
