@@ -94,8 +94,8 @@ nav ul li a:hover {
         width: 100%;
         
         background-image: image-set(
-        url('../images/background-image_m1lgpo_c_scale,w_200.jpg') 1x,
-        url('../images/background-image_m1lgpo_c_scale,w_485.jpg') 2x
+        url('../../images/background-image_m1lgpo_c_scale,w_200.jpg') 1x,
+        url('../../images/background-image_m1lgpo_c_scale,w_485.jpg') 2x
         );
 
         position: absolute;
