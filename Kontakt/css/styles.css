@@ -9,10 +9,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     color: #333;
-    background-image: image-set(
-        url('../images/background-image_m1lgpo_c_scale,w_200.jpg') 1x,
-        url('../images/background-image_m1lgpo_c_scale,w_485.jpg') 2x
-    );
+    
 
     
 
@@ -22,6 +19,11 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    background-image: image-set(
+        url('../images/background-image_m1lgpo_c_scale,w_200.jpg') 1x,
+        url('../images/background-image_m1lgpo_c_scale,w_485.jpg') 2x
+    );
 }
 
 /* Header Styles */
@@ -178,6 +180,52 @@ nav ul li a:hover {
     z-index: 2; /* Bring description in front of the image */
     }
 
+    h1{
+        font-size: 16px;
+    }
+
+    .contact-container{
+        flex-direction: column !important;
+        gap: 10px !important;
+
+    }
+
+    .divider{
+        display: none !important;
+    }
+
+    .information-container{
+        padding: 0 !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+
+        width: 100% !important;
+    }
+
+    .information-container p{
+        margin: 15px !important;
+        padding: 0 !important;
+    }
+
+    .person{
+        margin-top: 15px !important;
+        margin-bottom: 0 !important;
+        width: 100% !important;
+
+        padding-bottom: 0 !important;
+    }
+
+    .map-container{
+        width: 88vw !important;
+    }
+
+    .map-container iframe{
+        width: 100vw !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+
     
    
 }
@@ -203,6 +251,8 @@ nav ul li a:hover {
     margin: 0;
     padding: 0;
 }
+
+
 
 
 
