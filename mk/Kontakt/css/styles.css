@@ -515,6 +515,24 @@ footer {
     padding: 20px 0;
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
 footer p {
     margin: 0;
 }
+
+.adsolutions{
+    width: 170px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+
