@@ -250,6 +250,8 @@ nav ul li a:hover {
 .language a{
     cursor: pointer;
     text-decoration: underline;
+    color: #bf0603;
+
 }
 
 .language p{
