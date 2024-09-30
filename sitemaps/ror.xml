@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://www.muranakompani.mk/</title>
+  <link>https://www.muranakompani.mk/</link>
+
+<item>
+     <link>https://muranakompani.mk/</link>
+     <title>Murana Kompani</title>
+     <description>Ndërmarje për prodhimin e gypave të betonit, elementeve prej betoni dhe hapjen e puseve</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://muranakompani.mk/index.html</link>
+     <title>Murana Kompani</title>
+     <description>Ndërmarje për prodhimin e gypave të betonit, elementeve prej betoni dhe hapjen e puseve</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://muranakompani.mk/Produktet/index.html</link>
+     <title>Murana Kompani - Produktet</title>
+     <description>Ndërmarje për prodhimin e gypave të betonit, elementeve prej betoni dhe hapjen e puseve</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://muranakompani.mk/Sherbimet/index.html</link>
+     <title>Murana Kompani - Shërbimet</title>
+     <description>Ndërmarje për prodhimin e gypave të betonit, elementeve prej betoni dhe hapjen e puseve</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://muranakompani.mk/Punimet/index.html</link>
+     <title>Murana Kompani - Punimet</title>
+     <description>Ndërmarje për prodhimin e gypave të betonit, elementeve prej betoni dhe hapjen e puseve</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://muranakompani.mk/Kontakt/index.html</link>
+     <title>Murana Kompani - Kontakt</title>
+     <description>Ndërmarje për prodhimin e gypave të betonit, elementeve prej betoni dhe hapjen e puseve</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://muranakompani.mk/mk/index.html</link>
+     <title>Мурана Компани</title>
+     <description>Претпријатие за производство на бетонски цевки, бетонски елементи и отварање на бунари.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://muranakompani.mk/mk/Produktet/index.html</link>
+     <title>Мурана Компани - Производи</title>
+     <description>Претпријатие за производство на бетонски цевки, бетонски елементи и отварање на бунари.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://muranakompani.mk/mk/Sherbimet/index.html</link>
+     <title>Мурана Компани - Производи</title>
+     <description>Претпријатие за производство на бетонски цевки, бетонски елементи и отварање на бунари.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://muranakompani.mk/mk/Punimet/index.html</link>
+     <title>Мурана Компани - Проекти</title>
+     <description>Претпријатие за производство на бетонски цевки, бетонски елементи и отварање на бунари.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://muranakompani.mk/mk/Kontakt/index.html</link>
+     <title>Мурана Компани - Контакт</title>
+     <description>Претпријатие за производство на бетонски цевки, бетонски елементи и отварање на бунари.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
