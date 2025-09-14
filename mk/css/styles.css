@@ -13,8 +13,8 @@ body {
 .header-container {
     background-color: white;
     background-image: image-set(
-        url('../images/background-image_m1lgpo_c_scale,w_200.jpg') 1x,
-        url('../images/background-image_m1lgpo_c_scale,w_485.jpg') 2x
+        url('../images/background-image_m1lgpo_c_scale,w_200.webp') 1x,
+        url('../images/background-image_m1lgpo_c_scale,w_485.webp') 2x
     );
     padding: 10px 0;
     color: white;
@@ -90,8 +90,8 @@ nav ul li a:hover {
         width: 100%;
         
         background-image: image-set(
-        url('../images/background-image_m1lgpo_c_scale,w_200.jpg') 1x,
-        url('../images/background-image_m1lgpo_c_scale,w_485.jpg') 2x
+        url('../images/background-image_m1lgpo_c_scale,w_200.webp') 1x,
+        url('../images/background-image_m1lgpo_c_scale,w_485.webp') 2x
         );
         
         position: absolute;
@@ -364,14 +364,14 @@ nav ul li a:hover {
     
 
     height:50vh;
-    /* background-image: url('../images/hero-img3.jpg'); */
+    /* background-image: url('../images/hero-img3.webp'); */
     background-image: image-set(
-        url('../images/hero-img3_z2aqye_c_scale,w_200.png') 1x,
-        url('../images/hero-img3_z2aqye_c_scale,w_435.png') 1.5x,
-        url('../images/hero-img3_z2aqye_c_scale,w_596.png') 2x,
-        url('../images/hero-img3_z2aqye_c_scale,w_740.png') 2.5x,
-        url('../images/hero-img3_z2aqye_c_scale,w_877.png') 3x,
-        url('../images/hero-img3_z2aqye_c_scale,w_960.png') 4x
+        url('../images/hero-img3_z2aqye_c_scale,w_200.webp') 1x,
+        url('../images/hero-img3_z2aqye_c_scale,w_435.webp') 1.5x,
+        url('../images/hero-img3_z2aqye_c_scale,w_596.webp') 2x,
+        url('../images/hero-img3_z2aqye_c_scale,w_740.webp') 2.5x,
+        url('../images/hero-img3_z2aqye_c_scale,w_877.webp') 3x,
+        url('../images/hero-img3_z2aqye_c_scale,w_960.webp') 4x
     );
     background-size: cover; 
     background-position: center;
@@ -551,15 +551,15 @@ nav ul li a:hover {
 
 
 .highlights{
-    /* background-image: url('../images/highlights-bg-4.jpg'); */
+    /* background-image: url('../images/highlights-bg-4.webp'); */
 
     background-image: image-set(
-        url('../images/highlights-bg-4_q2spix_c_scale,w_200.png') 1x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_735.png') 1.5x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_991.png') 2x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_1104.png') 2.5x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_1344.png') 3x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_1400.png') 4x
+        url('../images/highlights-bg-4_q2spix_c_scale,w_200.webp') 1x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_735.webp') 1.5x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_991.webp') 2x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1104.webp') 2.5x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1344.webp') 3x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1400.webp') 4x
     );
 
     background-size: 100% 100%;
@@ -726,8 +726,8 @@ nav ul li a:hover {
 
 
     background-image: image-set(
-        url('../images/background-image_m1lgpo_c_scale,w_200.jpg') 1x,
-        url('../images/background-image_m1lgpo_c_scale,w_485.jpg') 2x
+        url('../images/background-image_m1lgpo_c_scale,w_200.webp') 1x,
+        url('../images/background-image_m1lgpo_c_scale,w_485.webp') 2x
     );
     display: flex;
     align-items: center;
@@ -793,8 +793,8 @@ nav ul li a:hover {
 
     /* background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%); */
     background-image: image-set(
-        url('../images/background-image_m1lgpo_c_scale,w_200.jpg') 1x,
-        url('../images/background-image_m1lgpo_c_scale,w_485.jpg') 2x
+        url('../images/background-image_m1lgpo_c_scale,w_200.webp') 1x,
+        url('../images/background-image_m1lgpo_c_scale,w_485.webp') 2x
     );
     display: flex;
     gap:7px;
@@ -855,14 +855,14 @@ a{
 }
 
 .produkt-description-container h2{
-    /* background-image: url('../images/highlights-bg-4.jpg'); */
+    /* background-image: url('../images/highlights-bg-4.webp'); */
     background-image: image-set(
-        url('../images/highlights-bg-4_q2spix_c_scale,w_200.png') 1x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_735.png') 1.5x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_991.png') 2x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_1104.png') 2.5x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_1344.png') 3x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_1400.png') 4x
+        url('../images/highlights-bg-4_q2spix_c_scale,w_200.webp') 1x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_735.webp') 1.5x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_991.webp') 2x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1104.webp') 2.5x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1344.webp') 3x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1400.webp') 4x
     );
     background-size: 100% 100%;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3);
@@ -892,9 +892,9 @@ a{
     gap: 10vw;
 
     background-image: image-set(
-        url('../images/background-image3_ph8gxm_c_scale,w_200.jpg') 1x,
-        url('../images/background-image3_ph8gxm_c_scale,w_664.jpg') 1.5x,
-        url('../images/background-image3_ph8gxm_c_scale,w_800.jpg') 2x
+        url('../images/background-image3_ph8gxm_c_scale,w_200.webp') 1x,
+        url('../images/background-image3_ph8gxm_c_scale,w_664.webp') 1.5x,
+        url('../images/background-image3_ph8gxm_c_scale,w_800.webp') 2x
     );
 
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3);
@@ -926,9 +926,9 @@ a{
     width: 100%;
     height: auto;
     background-image: image-set(
-        url('../images/background-image3_ph8gxm_c_scale,w_200.jpg') 1x,
-        url('../images/background-image3_ph8gxm_c_scale,w_664.jpg') 1.5x,
-        url('../images/background-image3_ph8gxm_c_scale,w_800.jpg') 2x
+        url('../images/background-image3_ph8gxm_c_scale,w_200.webp') 1x,
+        url('../images/background-image3_ph8gxm_c_scale,w_664.webp') 1.5x,
+        url('../images/background-image3_ph8gxm_c_scale,w_800.webp') 2x
     );
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3);
 
@@ -955,12 +955,12 @@ a{
 
 .hapja-puseve-container h2{
     background-image: image-set(
-        url('../images/highlights-bg-4_q2spix_c_scale,w_200.png') 1x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_735.png') 1.5x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_991.png') 2x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_1104.png') 2.5x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_1344.png') 3x,
-        url('../images/highlights-bg-4_q2spix_c_scale,w_1400.png') 4x
+        url('../images/highlights-bg-4_q2spix_c_scale,w_200.webp') 1x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_735.webp') 1.5x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_991.webp') 2x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1104.webp') 2.5x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1344.webp') 3x,
+        url('../images/highlights-bg-4_q2spix_c_scale,w_1400.webp') 4x
     );
     background-size: 100% 100%;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3);
